@@ -332,6 +332,29 @@ body {
   margin-bottom: 20px;
 }
 
+/* --- Infographic 2-column Grid --- */
+.infographic-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin: 24px 0;
+}
+
+.infographic-grid p {
+  margin: 0;
+}
+
+.infographic-grid img {
+  margin: 0;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .infographic-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* --- Table --- */
 .ka-main table {
   width: 100%;

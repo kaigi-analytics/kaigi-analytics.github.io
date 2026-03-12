@@ -1,6 +1,6 @@
 ---
 layout: ka-default
-title: カイギアナリティクス — 議会議事録AI分析サービス
+title: カイギアナリティクス 議会議事録AI分析サービス
 ---
 
 <div class="hero">
@@ -9,14 +9,14 @@ title: カイギアナリティクス — 議会議事録AI分析サービス
 
 <div class="hero-stats">
   <div class="hero-stat">
-    <span class="number">452,272</span>
+    <span class="number">589,855</span>
     <span class="unit">件</span>
     <span class="label">議事録データ</span>
   </div>
   <div class="hero-stat">
-    <span class="number">3,335,111</span>
+    <span class="number">約45,000</span>
     <span class="unit">件</span>
-    <span class="label">発言データ</span>
+    <span class="label">議員プロフィール</span>
   </div>
   <div class="hero-stat">
     <span class="number">約1,000</span>
@@ -28,53 +28,31 @@ title: カイギアナリティクス — 議会議事録AI分析サービス
 
 ## なぜ必要か
 
-<div class="issue-card">
+<div class="issue-card" markdown="1">
 <div class="card-label">課題</div>
 
-全国約1,700の地方議会で日々交わされる政策議論。その記録は議事録として公開されていますが、**自治体ごとにフォーマットがバラバラ**で、横断的な検索は事実上不可能です。
+地方自治体（地方公共団体）1,765で日々交わされる政策議論。その記録は議事録として公開されていますが、**自治体ごとにフォーマットがバラバラ**で、横断的な検索は事実上不可能です。
 
 他の自治体がどのような議論を行っているか——先行事例や政策の効果を調べるには**膨大な時間と労力**が必要です。政策立案に不可欠な「全国の議論の全体像」が見えない状況が続いています。
 </div>
 
-<div class="proposal-card">
+<div class="proposal-card" markdown="1">
 <div class="card-label">解決</div>
 
-カイギアナリティクスは、スクレイピング・データベース・AI（大規模言語モデル）を統合し、全国の議会議事録を**収集・構造化・可視化**します。多忙な議員が政策課題の全体像を一目で把握できる環境を提供します。
+カイギアナリティクスは、WEBスクレイピング・データベース・LLM（大規模言語モデル）各技術を統合し、全国の議会議事録を収集・構造化・可視化します。多忙な議員が政策課題の全体像を一目で把握できる環境を提供します。
 </div>
 
 ## 何ができるか
 
 ### 全国議事録の横断検索
 
-キーワードを指定するだけで、全国約1,000自治体の議事録から関連する議論を抽出。地方別・自治体別に構造化して提供します。
-
-### レポートの自動生成
-
-抽出した議論をAIが分析し、以下の成果物を自動生成します。
-
-<div class="data-grid">
-  <div class="data-item">
-    <span class="number">10</span>
-    <span class="unit">地方</span>
-    <span class="label">地方別PDF報告書</span>
-  </div>
-  <div class="data-item">
-    <span class="number">10</span>
-    <span class="unit">枚</span>
-    <span class="label">インフォグラフィック</span>
-  </div>
-  <div class="data-item">
-    <span class="number">全</span>
-    <span class="unit">自治体分</span>
-    <span class="label">議事録サマリレポート</span>
-  </div>
-</div>
+キーワードを指定するだけで、全国約1,000自治体の議事録から関連する議論を抽出。地方別・自治体別に構造化して提供します。（WEBインターフェイスは準備中です。）
 
 ### 高精度な分析
 
 AIによる要約・分析では、**ソース分離運用**と**正確性誘導プロンプト**により、ハルシネーション（事実と異なる出力）を徹底的に排除。すべての記述に出典（自治体名・日付・発言者）を明記します。
 
-## 成果物の例 — データセンター政策分析
+## 事例 データセンター政策分析
 
 実際にカイギアナリティクスを使用し、「データセンター」をテーマに全国の議会議論を分析した事例です。
 
@@ -87,7 +65,7 @@ AIによる要約・分析では、**ソース分離運用**と**正確性誘導
 
 ### 分析から得られた知見の例
 
-<div class="evidence-card">
+<div class="evidence-card" markdown="1">
 <div class="card-label">発見</div>
 
 - **北九州市**: APL社によるデータセンター投資額 *1,250億円超*。低地震リスク・再エネ・工業用水・理工系人材の集積を強みとした誘致戦略
@@ -99,11 +77,29 @@ AIによる要約・分析では、**ソース分離運用**と**正確性誘導
 
 分析結果を1枚のビジュアルに凝縮したインフォグラフィックです。地方ごとの議論の全体像を一目で把握できます。
 
-![北海道地方 データセンター インフォグラフィック](images/infographic-hokkaido.png)
-<p class="image-caption">北海道地方 — データセンター政策分析インフォグラフィック</p>
+<div class="infographic-grid">
 
-![関東地方 データセンター インフォグラフィック](images/infographic-kanto.png)
-<p class="image-caption">関東地方 — データセンター政策分析インフォグラフィック</p>
+![北海道地方](images/infographic-hokkaido.png)
+
+![東北地方](images/infographic-東北.png)
+
+![関東地方](images/infographic-kanto.png)
+
+![甲信越地方](images/infographic-甲信越.png)
+
+![北陸地方](images/infographic-北陸.png)
+
+![東海地方](images/infographic-東海.png)
+
+![近畿地方](images/infographic-近畿.png)
+
+![中国地方](images/infographic-中国.png)
+
+![四国地方](images/infographic-四国.png)
+
+![九州沖縄地方](images/infographic-九州沖縄.png)
+
+</div>
 
 ## ご利用の流れ
 
@@ -133,7 +129,7 @@ AIによる要約・分析では、**ソース分離運用**と**正確性誘導
     <div class="step-num">4</div>
     <div class="step-content">
       <h4>成果物の生成</h4>
-      <p>PDF報告書・インフォグラフィック・サマリレポートを自動生成します。</p>
+      <p>PDF報告書、インフォグラフィック、サマリレポート、議事録データを提供します。</p>
     </div>
   </div>
   <div class="step-item">
@@ -151,14 +147,9 @@ AIによる要約・分析では、**ソース分離運用**と**正確性誘導
 
 <div class="data-grid">
   <div class="data-item">
-    <span class="number">452,272</span>
+    <span class="number">589,855</span>
     <span class="unit">件</span>
     <span class="label">議事録</span>
-  </div>
-  <div class="data-item">
-    <span class="number">3,335,111</span>
-    <span class="unit">件</span>
-    <span class="label">発言データ</span>
   </div>
   <div class="data-item">
     <span class="number">約45,000</span>
@@ -168,17 +159,17 @@ AIによる要約・分析では、**ソース分離運用**と**正確性誘導
   <div class="data-item">
     <span class="number">約1,000</span>
     <span class="unit">自治体</span>
-    <span class="label">収集済み（全体約1,700）</span>
+    <span class="label">収集済み（全体1,765）</span>
   </div>
 </div>
 
 | 構成要素 | 技術 |
 |---|---|
 | データベース | PostgreSQL 15（マスター＋レプリカ構成） |
-| 全文検索 | Elasticsearch |
-| AI分析 | 大規模言語モデル（LLM）による構造化・要約 |
+| 全文検索 | Elasticsearch、Meilisearch |
+| AI分析 | 各社大規模言語モデル（LLM）による構造化・要約 |
 | 可視化 | NotebookLM + 画像生成モデルによるインフォグラフィック |
-| 品質管理 | ソース分離運用 + 正確性誘導プロンプト |
+| 品質管理 | Anthropic ClaudeCodeによるソース分離運用 + 正確性誘導プロンプト |
 
 ---
 
@@ -187,6 +178,6 @@ AIによる要約・分析では、**ソース分離運用**と**正確性誘導
   <p style="color: #666666; font-size: 0.9rem;">サービスの詳細やご利用についてのご質問は、下記までお気軽にお問い合わせください。</p>
   <p style="margin-top: 16px;">
     <strong>カイギアナリティクス</strong><br>
-    <span style="color: #666666; font-size: 0.9rem;">kumagaijun@gmail.com</span>
+    <span style="color: #666666; font-size: 0.9rem;">junkumagai@gmail.com</span>
   </p>
 </div>
