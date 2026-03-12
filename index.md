@@ -77,7 +77,7 @@ AIによる要約・分析では、**ソース分離運用**と**正確性誘導
 
 分析結果を1枚のビジュアルに凝縮したインフォグラフィックです。地方ごとの議論の全体像を一目で把握できます。
 
-<div class="infographic-grid">
+<div class="infographic-grid" markdown="1">
 
 ![北海道地方](images/infographic-hokkaido.png)
 
