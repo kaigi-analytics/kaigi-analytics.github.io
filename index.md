@@ -77,28 +77,17 @@ AIによる要約・分析では、**ソース分離運用**と**正確性誘導
 
 分析結果を1枚のビジュアルに凝縮したインフォグラフィックです。地方ごとの議論の全体像を一目で把握できます。
 
-<div class="infographic-grid" markdown="1">
-
-![北海道地方](images/infographic-hokkaido.png)
-
-![東北地方](images/infographic-tohoku.png)
-
-![関東地方](images/infographic-kanto.png)
-
-![甲信越地方](images/infographic-koshinetsu.png)
-
-![北陸地方](images/infographic-hokuriku.png)
-
-![東海地方](images/infographic-tokai.png)
-
-![近畿地方](images/infographic-kinki.png)
-
-![中国地方](images/infographic-chugoku.png)
-
-![四国地方](images/infographic-shikoku.png)
-
-![九州沖縄地方](images/infographic-kyushu-okinawa.png)
-
+<div class="infographic-grid">
+  <img src="images/infographic-hokkaido.png" alt="北海道地方">
+  <img src="images/infographic-tohoku.png" alt="東北地方">
+  <img src="images/infographic-kanto.png" alt="関東地方">
+  <img src="images/infographic-koshinetsu.png" alt="甲信越地方">
+  <img src="images/infographic-hokuriku.png" alt="北陸地方">
+  <img src="images/infographic-tokai.png" alt="東海地方">
+  <img src="images/infographic-kinki.png" alt="近畿地方">
+  <img src="images/infographic-chugoku.png" alt="中国地方">
+  <img src="images/infographic-shikoku.png" alt="四国地方">
+  <img src="images/infographic-kyushu-okinawa.png" alt="九州沖縄地方">
 </div>
 
 ## ご利用の流れ
