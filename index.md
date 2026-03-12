@@ -81,23 +81,23 @@ AIによる要約・分析では、**ソース分離運用**と**正確性誘導
 
 ![北海道地方](images/infographic-hokkaido.png)
 
-![東北地方](images/infographic-東北.png)
+![東北地方](images/infographic-tohoku.png)
 
 ![関東地方](images/infographic-kanto.png)
 
-![甲信越地方](images/infographic-甲信越.png)
+![甲信越地方](images/infographic-koshinetsu.png)
 
-![北陸地方](images/infographic-北陸.png)
+![北陸地方](images/infographic-hokuriku.png)
 
-![東海地方](images/infographic-東海.png)
+![東海地方](images/infographic-tokai.png)
 
-![近畿地方](images/infographic-近畿.png)
+![近畿地方](images/infographic-kinki.png)
 
-![中国地方](images/infographic-中国.png)
+![中国地方](images/infographic-chugoku.png)
 
-![四国地方](images/infographic-四国.png)
+![四国地方](images/infographic-shikoku.png)
 
-![九州沖縄地方](images/infographic-九州沖縄.png)
+![九州沖縄地方](images/infographic-kyushu-okinawa.png)
 
 </div>
 
